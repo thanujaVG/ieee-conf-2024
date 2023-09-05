@@ -22,31 +22,33 @@ export default function committe() {
                             <img className='main-patron-image' src={president} alt="president"/>
                             <h2 className="main-patron-name">Sree Siddalinga Swamiji</h2>
                             <h3 className="main-patron-designation">President</h3>
-                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education, Society Siddaganga Math, Tumakuru</h5>
                         </div>
+                    </div>
+                    <div className='patron-cards-container'>
                         {/* <div className="main-patron-card">
                             <img className='main-patron-image' src={vice_president} alt="vicepresident"/>
                             <h2 className="main-patron-name">Sree Shiva Siddeshwara Swamiji</h2>
                             <h3 className="main-patron-designation">Vice President</h3>
-                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society Siddaganga Math, Tumakuru</h5>
                         </div> */}
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={secretary} alt="secretary"/>
                             <h2 className="main-patron-name">Shri T K Nanjundappa </h2>
                             <h3 className="main-patron-designation">Secretary</h3>
-                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={ceo} alt="ceo"/>
                             <h2 className="main-patron-name">Dr. Shivakumaraiah</h2>
                             <h3 className="main-patron-designation">Joint Secretary</h3>
-                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                            <h5 className="main-patron-institute">Siddaganga Math, Tumakuru</h5>
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={director} alt="director"/>
                             <h2 className="main-patron-name">Dr. M N Channabasappa</h2>
                             <h3 className="main-patron-designation">Director</h3>
-                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                            <h5 className="main-patron-institute">SIT, Tumakuru</h5>
                         </div>
 
                     </div>
@@ -60,7 +62,7 @@ export default function committe() {
                     <img className='main-patron-image' src={principal} alt="principal"/>
                     <h2 className="main-patron-name">Dr. S V Dinesh</h2>
                     <h3 className="main-patron-designation">Principal</h3>
-                    <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                    <h5 className="main-patron-institute">SIT, Tumakuru</h5>
                 </div>
             </div>
         </div>
@@ -70,14 +72,14 @@ export default function committe() {
             <div className="committe-container">
                 <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
-                    <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIT, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumkur</h3>
-                    <h3 className="committe-details">Dr. H K E Latha, Professor, Dept. of  EIE, SIT, Tumkur</h3>
+                    <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIT, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H K E Latha, Professor, Dept. of  EIE, SIT, Tumakuru</h3>
                     </div>
                 </div>
             </div>
@@ -104,7 +106,7 @@ export default function committe() {
                 {/* <h3 className="committe-details">Dr. Devendra Jalihal, IIT Madras</h3> */}
                 {/* <h3 className="committe-details">Dr. C Krishna Mohan, IIT Hyderabad</h3> */}
                 <h3 className="committe-details">Dr. S R Mahadeva Prasanna, IIT Dharwad</h3>
-                <h3 className="committe-details">Dr. Rajesh Hegde, IIT Khanpur</h3>
+                {/* <h3 className="committe-details">Dr. Rajesh Hegde, IIT Khanpur</h3> */}
                 {/* <h3 className="committe-details">Dr. Preeti Rao, IIT Bombay</h3> */}
                 {/* <h3 className="committe-details">Dr. K Sreenivasa Rao, IIT Kharagpur</h3> */}
                 {/* <h3 className="committe-details">Dr. Kaushik Basu, IISc Bengaluru</h3> */}
@@ -127,7 +129,7 @@ export default function committe() {
             <div className="patron-cards-container">
             <div className="patron-card">
                     <h2 className="patron-name">Dr. Kiranmayi G.R.</h2>
-                    <h3 className="patron-designation">Associate Professor, Dept. of EIE, SIT, Tumkur</h3>
+                    <h3 className="patron-designation">Associate Professor, Dept. of EIE, SIT, Tumakuru</h3>
                     <h5 className="patron-institute">Technical Chair</h5>
                 </div>
             <div className="patron-card">
@@ -137,7 +139,7 @@ export default function committe() {
                 </div>
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. H K E Latha</h2>
-                    <h3 className="patron-designation">Professor, Dept. of EIE, SIT, Tumkur </h3>
+                    <h3 className="patron-designation">Professor, Dept. of EIE, SIT, Tumakuru </h3>
                     <h5 className="patron-institute">Publication Chair</h5>
                 </div>
 
@@ -150,28 +152,28 @@ export default function committe() {
                 <div className="patron-card">
                 {/* Dr. Mallikarjun B C */}
                 {/* Associate Professor, Dept. of ETE,  */}
-                    <h2 className="patron-name">Prof. H K Ravi</h2>
-                    <h3 className="patron-designation"> Assistant Professor, Dept. of EIE, SIT, Tumkur</h3>
+                    <h2 className="patron-name">H K Ravi</h2>
+                    <h3 className="patron-designation"> Assistant Professor, Dept. of EIE, SIT, Tumakuru</h3>
                     <h5 className="patron-institute">Finance Chair</h5>
                 </div>
 
 
                 <div className="patron-card">
-                    <h2 className="patron-name">Prof. T O Geetha Rani</h2>
-                    <h3 className="patron-designation">Associate Professor, Dept. of ECE, SIT, Tumkur </h3>
+                    <h2 className="patron-name">T O Geetha Rani</h2>
+                    <h3 className="patron-designation">Associate Professor, Dept. of ECE, SIT, Tumakuru </h3>
                     <h5 className="patron-institute">Co-Finance Chair</h5>
                 </div>
 
-{/* Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumkur */}
+{/* Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru */}
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Rashmi</h2>
-                    <h3 className="patron-designation">Professor, Dept. of EEE, SIT, Tumkur </h3>
+                    <h3 className="patron-designation">Professor, Dept. of EEE, SIT, Tumakuru </h3>
                     <h5 className="patron-institute">Publicity  Chair</h5>
                 </div>
 
                 {/* <div className="patron-card">
                     <h2 className="patron-name">Dr. K Viswanath</h2>
-                    <h3 className="patron-designation">Professor, Dept. of ETE, SIT, Tumkur</h3>
+                    <h3 className="patron-designation">Professor, Dept. of ETE, SIT, Tumakuru</h3>
                     <h5 className="patron-institute">Publicity Chair</h5>
                 </div> */}
 
@@ -247,42 +249,42 @@ export default function committe() {
                 {/* <h3 className="committe-details">Dr B V, MSRIT, Bengaluru</h3>
                 <h3 className="committe-details">Dr Rudraswamy B, Sri Jayachamarajendra College Of Engineering</h3>
                 <h3 className="committe-details">Dr S G Shivaprasad Yadav, MSRIT, Bengaluru</h3>
-                <h3 className="committe-details">Dr. Aparanji V M, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Asha Karegowda, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Aparanji V M, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Asha Karegowda, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Bharath K P, REVA University</h3>
-                <h3 className="committe-details">Dr. Bharathi P T, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Bhargavi K, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Chandrashekar H M, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Chandrika Nataraj, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Dhruvakumar T, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Bharathi P T, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Bhargavi K, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Chandrashekar H M, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Chandrika Nataraj, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Dhruvakumar T, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Gayathri S, JSS Science and Technology University</h3>
-                <h3 className="committe-details">Dr. Harshalatha Y, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Jagadamba G, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. K Viswanath, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Kavitha H, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Keshava Murthy G N, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Kiranmayi G R, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Madhu B M, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Mallikarjun B C, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Nagaratna Chittaragi, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Narasimhamurthy K C, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Puneeth Kumar T R, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Purushottama T L, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Roopa S, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. S R Manohara, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Harshalatha Y, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Jagadamba G, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. K Viswanath, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Kavitha H, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Keshava Murthy G N, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Kiranmayi G R, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Madhu B M, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Mallikarjun B C, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Nagaratna Chittaragi, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Narasimhamurthy K C, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Puneeth Kumar T R, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Purushottama T L, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Roopa S, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. S R Manohara, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. S. R. Nirmala, Gauhati University</h3>
-                <h3 className="committe-details">Dr. Shashikala B N, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Sheela S J, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Sridhar H S, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Sujatha M N, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Sunitha N R , SIT, Tumkur</h3>
-            <h3 className="committe-details">Dr. Usha L, SIT, Tumkur</h3> */}
+                <h3 className="committe-details">Dr. Shashikala B N, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Sheela S J, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Sridhar H S, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Sujatha M N, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Sunitha N R , SIT, Tumakuru</h3>
+            <h3 className="committe-details">Dr. Usha L, SIT, Tumakuru</h3> */}
                 {/* <h3 className="committee-details">Dr. Vaishali Patil, International Institute of Information Technology,Pune</h3> */}
                 {/* <h3 className="committee-details">Dr. Veena Thenkanidiyoor , NIT,Goa</h3> */}
-                {/* <h3 className="committe-details">Dr. Venkatesh Murthy B T, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Vinayaka K U, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr.Rashmi Aradhya, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr.Seema B Hegde, SIT, Tumkur</h3>
+                {/* <h3 className="committe-details">Dr. Venkatesh Murthy B T, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr. Vinayaka K U, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr.Rashmi Aradhya, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Dr.Seema B Hegde, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. G Manjula,GSSS Institute Of Engineering And Technology, Mysore </h3>
                 <h3 className="committe-details">Dr. Geetha R S, BMSCE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. H Kumaraswamy, RVCE, Bengaluru</h3>
@@ -294,16 +296,16 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Kendaganna S, RVCE, Bengaluru</h3>
             <h3 className="committe-details">Dr. Lakshmi KP, BMSCE, Bengaluru</h3> */}
                 {/* <h3 className="committee-details">Lakshmi Shrinivasan, MSRIT</h3> */}
-                {/* <h3 className="committe-details">Dr. M Chandrashekhar, SSIT, Tumkur</h3>
+                {/* <h3 className="committe-details">Dr. M Chandrashekhar, SSIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. M Rajeswari, BIT, Bengaluru</h3> */}
                 {/* <h3 className="committee-details">M S Suma, BMSCE</h3> */}
                 {/* <h3 className="committee-details">Dr MADHU B M, SIT</h3> */}
                 {/* <h3 className="committe-details">Dr. Mallikarjunaswamy M S, Sri Jayachamarajendra College of Engineering, Mysuru</h3>
-                <h3 className="committe-details">Dr. Manjunath Sastry, SIT, Tumkur, Tumkur</h3>
-                <h3 className="committe-details">Mr. Raveesh Siddaramaiah, SIT, Tumkur</h3>
-                <h3 className="committe-details">Mr. Ravi H K, SIT, Tumkur</h3>
-                <h3 className="committe-details">Mrs. Mala S, SIT, Tumkur</h3>
-                <h3 className="committe-details">Mrs. Shilpashree P S, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Manjunath Sastry, SIT, Tumakuru, Tumakuru</h3>
+                <h3 className="committe-details">Mr. Raveesh Siddaramaiah, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Mr. Ravi H K, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Mrs. Mala S, SIT, Tumakuru</h3>
+                <h3 className="committe-details">Mrs. Shilpashree P S, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Nagamani K, RVCE, Bengaluru</h3>
             <h3 className="committe-details">Dr. Nagaraju P, RVCE, Bengaluru</h3> */}
                 {/* <h3 className="committee-details">Narendra K C, NMAM Institute of Technology</h3> */}
@@ -318,15 +320,15 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Radhakrishna Bhat, Manipal Institute of Technology, Manipal</h3> */}
                 {/* <h3 className="committee-details">Raghavendra Prasad, R V College of Engineering Bengaluru</h3> */}
                 <h3 className="committe-details">Dr. Rajeshwari Hegde, BMSCE, Bengaluru</h3>
-                {/* <h3 className="committe-details">Dr. Rajeshwari Siddarameswara, SIT, Tumkur</h3>
+                {/* <h3 className="committe-details">Dr. Rajeshwari Siddarameswara, SIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Renu Madhavi C H, RVCE, Bengaluru</h3>
-                <h3 className="committe-details">Dr. Renukalatha, SSIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Renukalatha, SSIT, Tumakuru</h3>
                 <h3 className="committe-details">Dr. Shashidhar Koolagudi, National Institute of Technology Karnataka</h3>
                 <h3 className="committe-details">Dr. Shivakumar Gundappa, Malnad College of Engineering, Hassan</h3>
                 <h3 className="committe-details">Dr. Shobha Shankar, Vidyavardhaka College  of Engineering, Mysore</h3>
                 <h3 className="committe-details">Dr. Shrikant Joshi, Vishwakarma Institute of Information Technology Pune</h3>
                 <h3 className="committe-details">Dr. Shrikant Mehre, IIT Kharagpur</h3>
-            <h3 className="committe-details">Dr. Suresh N, SSIT, Tumkur</h3> */}
+            <h3 className="committe-details">Dr. Suresh N, SSIT, Tumakuru</h3> */}
                 {/* <h3 className="committee-details">Suryakanth Gangashetty, K  L University Vaddeswaram, Andhra Pradesh L University Vaddeswaram, Andhra Pradesh</h3> */}
                 {/* <h3 className="committe-details">Dr. Uma B V, RVCE, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Usha Rani K R,RVCE, Bengaluru</h3>
