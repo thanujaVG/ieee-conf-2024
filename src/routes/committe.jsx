@@ -16,7 +16,7 @@ export default function committe() {
             <Navabar/>
             <div className="committe-page-heading-container">
                 <div className="patrons-container">
-                    <h1 className="main-heading">Chief Patrons</h1>
+                    <h1 className="main-heading">Chief Patron</h1>
                     <div className="patron-cards-container">
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={president} alt="president"/>
@@ -25,6 +25,7 @@ export default function committe() {
                             <h5 className="main-patron-institute">Sree Siddaganga Education, Society Siddaganga Math, Tumakuru</h5>
                         </div>
                     </div>
+                    <h1 className="main-heading">Patrons</h1>
                     <div className='patron-cards-container'>
                         {/* <div className="main-patron-card">
                             <img className='main-patron-image' src={vice_president} alt="vicepresident"/>
