@@ -61,7 +61,7 @@ function Home() {
                 {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
                   {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
                   
-                  <h3>Papers will be uploaded through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2023" target='_blank'>Microsoft CMT</a>.</h3>
+                  <h3 className='heading'>Papers will be uploaded through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2023" target='_blank'>Microsoft CMT</a>.</h3>
                   </div>
               </div>
               {/* <Marquee gradient={false} speed={40} pauseOnHover={true}>
