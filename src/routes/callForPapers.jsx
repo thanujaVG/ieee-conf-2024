@@ -59,7 +59,7 @@ export default function Papersubmission() {
                     <div className="call-for-papers-about-cfp-container">
                         <h3>Call For Papers</h3>
                         <p style={{fontSize:"2rem"}}>
-                            2<sup>nd</sup> IEEE International Conference on Smart Systems for applications in Electrical Sciences (ICSSES) will be organized on 
+                            2<sup>nd</sup> International Conference on Smart Systems for applications in Electrical Sciences (ICSSES) will be organized on 
                             May 3rd and 4th 2024 at Siddaganga Institute of Technology, Tumkur, Karnataka. The main objective of the conference 
                             is to decipher advances and innovations in the field of 6G, IoT, Automation and Automotive Electronics. Original contributions 
                             based on theoretical, experimental, design, development, simulation, application, test, measurement and similar studies covering topics (not restricted to) 

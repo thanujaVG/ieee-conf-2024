@@ -14,14 +14,20 @@ function RegistrationInfo() {
           <th className='col-head'>Non IEEE Member</th>
         </tr>
         <tr>
-          <td className='col-head  two-row-col-1 text-head'>Indian Authors</td>
-          <td>Academia</td>
+          <td className='col-head two-row-col-headless text-head'>Indian Authors</td>
+          <td>Students & Research Scholars</td>
+          <td>Rs. 4000</td>
+          <td>Rs. 6000</td>
+        </tr>
+        <tr>
+          <td className='two-row-col-headless'></td>
+          <td>Faculty</td>
           <td>Rs. 5000</td>
           <td>Rs. 7500</td>
         </tr>
         <tr>
           <td className='two-row-col-2'></td>
-          <td>Industry</td>
+          <td>Industry Participants</td>
           <td>Rs. 6500</td>
           <td>Rs. 9500</td>
         </tr>
