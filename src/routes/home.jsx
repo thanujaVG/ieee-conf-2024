@@ -321,7 +321,7 @@ function Home() {
           <ul>
             <li>Submission Portal Opens: 1st January 2024</li>
             {/* <li>Full Paper Submission Deadline: 17th May 2024<span className='hard-dline'> Hard Deadline</span></li> */}
-            <li>Full Paper Submission Deadline: 3rd March 2024</li>
+            <li>Full Paper Submission Deadline: 3rd Feburary 2024</li>
             {/* <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 3rd March 2024</li> */}
             <li>Acceptance/Rejection Notification : 3rd March 2024</li>
             {/* <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 3rd April 2024</li> */}
