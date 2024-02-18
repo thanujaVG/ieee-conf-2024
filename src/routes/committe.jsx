@@ -2,8 +2,8 @@ import React from 'react';
 import "../css/committe.css";
 import Navabar from '../components/navbar/navabar'
 import ceo from "../assets/images/ceo.jpg";
-// import vice_president from "../assets/images/vice_president.jpg";
 import president from "../assets/images/president.jpg";
+import founder from "../assets/images/founder.jpg";
 import principal from "../assets/images/principal.jpg";
 import director from "../assets/images/director.gif";
 import secretary from "../assets/images/TKN.jpg"
@@ -16,13 +16,22 @@ export default function committe() {
             <Navabar/>
             <div className="committe-page-heading-container">
                 <div className="patrons-container">
+                    <h1 className="main-heading">With the divine blessings of our Founder President</h1>
+                    <div className="patron-cards-container">
+                        <div className="main-patron-card">
+                            <img className='main-patron-image' src={founder} alt="founder"/>
+                            <h2 className="main-patron-name">Sree Sree Dr. Sivakumara Swamigalu</h2>
+                            <h3 className="main-patron-designation">Founder</h3>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
+                        </div>
+                    </div>
                     <h1 className="main-heading">Chief Patron</h1>
                     <div className="patron-cards-container">
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={president} alt="president"/>
                             <h2 className="main-patron-name">Sree Siddalinga Swamiji</h2>
                             <h3 className="main-patron-designation">President</h3>
-                            <h5 className="main-patron-institute">Sree Siddaganga Education, Society Siddaganga Math, Tumakuru</h5>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
                         </div>
                     </div>
                     <h1 className="main-heading">Patrons</h1>
@@ -36,14 +45,15 @@ export default function committe() {
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={secretary} alt="secretary"/>
                             <h2 className="main-patron-name">Shri T K Nanjundappa </h2>
-                            <h3 className="main-patron-designation">Secretary</h3>
+                            <h3 className="main-patron-designation">Honorary Secretary</h3>
                             <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={ceo} alt="ceo"/>
                             <h2 className="main-patron-name">Dr. Shivakumaraiah</h2>
                             <h3 className="main-patron-designation">Joint Secretary</h3>
-                            <h5 className="main-patron-institute">Siddaganga Math, Tumakuru</h5>
+                            {/* <h5 className="main-patron-institute">Siddaganga Math, Tumakuru</h5> */}
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</h5>
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={director} alt="director"/>
@@ -68,6 +78,7 @@ export default function committe() {
             </div>
         </div>
 
+<<///< main
         <div className="patrons-container">
             <h1 className="patrons-heading">Organizing Committee</h1>
             <div className="committe-container">
@@ -85,6 +96,9 @@ export default function committe() {
                 </div>
             </div>
         </div>
+//=======
+        
+//>>>>>>> main
 
         <div className="patrons-container">
             <h1 className="patrons-heading">Advisory Committee</h1>
@@ -97,7 +111,8 @@ export default function committe() {
                 {/* <h3 className="committe-details">Dr. Arokiaswami Alphones, Nanyang Technological University, Singapore</h3> */}
                 {/* <h3 className="committe-details">Dr. Hasan Fleyeh, Dalarna University, Sweden</h3> */}
                 <h3 className="committe-details">Dr. Michael G Danikas, Democritus University of Thrace, Xanthi </h3>
-                <h3 className="committe-details">Dr. Raji Sundarajan, Purdue University, West Lafayette</h3>
+                <h3 className="committe-details">Dr. Raji Sundarajan, Former Director, Purdue University, West Lafayette</h3>
+                <h3 className="committe-details">Dr. Suresh Jangamashetty, BEC, Bagalkot</h3>
                 {/* <h3 className="committe-details">Dr. Mariana AmorimFraga, Federal University of Sao Paulo, Brazil</h3> */}
                 {/* <h3 className="committe-details">Prof. Linga Reddy Cenkeramaddi, University of Agder, Norway</h3> */}
                 {/* <h3 className="committe-details">Dr. Akhilesh Thyagaturu, Arizona State University, USA</h3> */}
@@ -169,7 +184,7 @@ export default function committe() {
                 <div className="patron-card">
                     <h2 className="patron-name">T O Geetha Rani</h2>
                     <h3 className="patron-designation">Associate Professor, Dept. of ECE, SIT, Tumakuru </h3>
-                    <h5 className="patron-institute">Co-Finance Chair</h5>
+                    <h5 className="patron-institute">Finance Co-Chair</h5>
                 </div>
 
 {/* Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru */}
@@ -185,6 +200,24 @@ export default function committe() {
                     <h5 className="patron-institute">Publicity Chair</h5>
                 </div> */}
 
+            </div>
+        </div>
+
+        <div className="patrons-container">
+            <h1 className="patrons-heading">Organizing Committee</h1>
+            <div className="committe-container">
+                <div className='left-alignment-style'>
+                    <div className='inside-left-alignment'>
+                    <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. Siddeswara Prasad V., Professor, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H K E Latha, Professor, Dept. of  EIE, SIT, Tumakuru</h3>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -227,7 +260,6 @@ export default function committe() {
                 <h3 className="committe-details">Dr. K. Jaya Sankar, MCET, Hyderabad</h3>
                 <h3 className="committe-details">Dr. John William CM, MCET, Hyderabad </h3>
                 <h3 className="committe-details">Dr. Sundara Rajan, CPRI, Bengaluru</h3>
-                <h3 className="committe-details">Dr. Suresh Jangamashetty, BEC, Bagalkot</h3>
                 {/* <h3 className="committe-details">Dr. Srikanth P C., MCE, Hassan</h3> */}
                 <h3 className="committe-details">Dr. B V Sumangala, MSRIT, Bengaluru</h3>
                 {/* <h3 className="committe-details">Dr. Madhavi M, PESITM, Shimoga</h3> */}
