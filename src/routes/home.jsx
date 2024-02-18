@@ -3,7 +3,7 @@ import "../css/home.css"
 // import {styles} from 'react'
 import { motion } from "framer-motion"
 import Navabar from '../components/navbar/navabar'
-// import Marquee from 'react-fast-marquee'
+import Marquee from 'react-fast-marquee'
 import { BsCalendarCheck } from "react-icons/bs"
 import { MdOutlineCopyright } from "react-icons/md"
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
@@ -22,6 +22,7 @@ function Home() {
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
           <Navabar />
+
           <div className="home_conference-details-wrapper">
 
             <div className="home_conference-details-container">
@@ -55,20 +56,21 @@ function Home() {
                 </div>
                 <div className="home_date-container">
                   <BsCalendarCheck className='calender-icon' />
-                  <p>3rd & 4th May, 2024</p>
+                  <p>3<sup>rd</sup> & 4<sup>th</sup> May, 2024</p>
                 </div>
                 <div className="web-link"> 
                 {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
                   {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
                   
-                  <h3>Papers will be uploaded through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2023" target='_blank'>Microsoft CMT</a>.</h3>
-                  </div>
-              </div>
-              {/* <Marquee gradient={false} speed={40} pauseOnHover={true}>
-                <div className="home-confrence-type-marquee-container">
-                  <p>All accepted and presented papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p>
+                  <h3 className='center-align-text-data'>Registration and Submission through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2024" target='_blank'>Microsoft CMT</a>.</h3>
                 </div>
-              </Marquee> */}
+              </div>
+              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+                <div className="home-confrence-type-marquee-container">
+                  {/* <p>All accepted  papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p> */}
+                  <p>All accepted papers that are registered and presented in the conference will be sent for possible inclusion in IEEE Xplore.  </p>
+                </div>
+              </Marquee>
               <br />
             </div>
           </div>
@@ -113,7 +115,7 @@ function Home() {
             </div>
             <div className="confrence-para-2">
               <p>
-                It will be held during  3rd and 4th May, 2024. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals.
+                It will be held during  3<sup>rd</sup> and 4<sup>th</sup> May, 2024. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals.
                 ICSSES 2024 is a platform for technologists and researchers from academia and industry across
                 the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
               </p>
@@ -305,9 +307,6 @@ function Home() {
                 </ul>
               </div>
             </div>
-
-            
-
           </div>
         </div>
       </div>
@@ -319,16 +318,18 @@ function Home() {
             <h2>Important Dates</h2>
           </div>
           <ul>
-            <li>Submission Portal Opens: 1st January 2024</li>
+            <li>Submission Portal Opens: 1<sup>st</sup> January 2024</li>
             {/* <li>Full Paper Submission Deadline: 17th May 2024<span className='hard-dline'> Hard Deadline</span></li> */}
-            <li>Full Paper Submission Deadline: 3rd Feburary 2024</li>
-            {/* <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 3rd March 2024</li> */}
-            <li>Acceptance/Rejection Notification : 3rd March 2024</li>
-            {/* <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 3rd April 2024</li> */}
-            <li>Submission of camera ready paper : 3rd April 2024</li>
-            {/* <li>Payment and Registration Deadline : 14th June 2024<span className='hard-dline'> Hard Deadline</span></li> */}
-            <li>Payment and Registration Deadline : 15th April 2024 </li>
-            <li>Conference dates: 3rd, 4th MAY 2024</li>
+            <li>Full Paper Submission Deadline: <span className='hard-dline'> Extended till 18<sup>th</sup> Feburary 2024</span></li>
+            {/* <li>Full Paper Submission Deadline: 3<sup>rd</sup> Feburary 2024</li> */}
+            {/* <li className='reg-details'>Full Paper Submission Deadline:  <span className='animate-notify'> Extended to 18<sup>th</sup> Feburary 2024 </span> </li> */}
+            {/* <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> March 2024</li> */}
+            <li>Acceptance/Rejection Notification : 3<sup>rd</sup> March 2024</li>
+            {/* <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> April 2024</li> */}
+            <li>Submission of camera ready paper : 3<sup>rd</sup> April 2024</li>
+            {/* <li>Payment and Registration Deadline : 14<sup>th</sup> June 2024<span className='hard-dline'> Hard Deadline</span></li> */}
+            <li>Payment and Registration Deadline : 15<sup>th</sup> April 2024 </li>
+            <li>Conference dates: 3<sup>rd</sup>, 4<sup>th</sup> MAY 2024</li>
           </ul>
         {/* Photos section for previous years */}
         {/* <PreviousConference /> */}
