@@ -1,10 +1,14 @@
 .contact-page-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  min-height: 100vh;
   text-align: center;
 }
 
 .contact-page-main-container .contact-page-hero-container{
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-image: url("../assets/images/v748-toon-61.jpg");
   background-size: cover;
   background-repeat: no-repeat;

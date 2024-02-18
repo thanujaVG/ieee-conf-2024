@@ -56,3 +56,8 @@
 .about-highlight {
     font-size: 6rem;
 }
+
+.footer {
+    display: absolute;
+    bottom: 0px;
+}

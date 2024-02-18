@@ -36,6 +36,7 @@ function Navabar() {
                     <li><NavLink to="/Registration">Registration</NavLink></li>
                     <li><NavLink to='/Contact-us'>Contact Us</NavLink></li>
                     <li><NavLink to='/about'>About Us</NavLink></li>
+                    <li><NavLink to='/photos'>We in 2023</NavLink></li>
                 </ul>
 
             </motion.nav>
