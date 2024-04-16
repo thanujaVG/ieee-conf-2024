@@ -1,30 +1,28 @@
-import React from 'react'
-import "../css/home.css"
+import React from "react";
+import "../css/home.css";
 // import {styles} from 'react'
-import { motion } from "framer-motion"
-import Navabar from '../components/navbar/navabar'
-import Marquee from 'react-fast-marquee'
-import { BsCalendarCheck } from "react-icons/bs"
-import { MdOutlineCopyright } from "react-icons/md"
-import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
+import { motion } from "framer-motion";
+import Navabar from "../components/navbar/navabar";
+import Marquee from "react-fast-marquee";
+import { BsCalendarCheck } from "react-icons/bs";
+import { MdOutlineCopyright } from "react-icons/md";
+import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg";
 import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
-import sitCampus from "../assets/images/1626788029037.jpg"
+import sitCampus from "../assets/images/1626788029037.jpg";
 // import Questions from '../pages/questions/questions';
 // import ImportantDetails from "../components/imp-details/imp-details";
 // import Contacts from '../routes/contact_card'
-import PreviousConference from './PreviousConference'
+import PreviousConference from "./PreviousConference";
 
 function Home() {
   return (
     <div>
-
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
           <Navabar />
 
           <div className="home_conference-details-wrapper">
-
             <div className="home_conference-details-container">
               {/* <Marquee gradient={false} speed={50} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
@@ -52,30 +50,73 @@ function Home() {
                   </div>
                 </div>
                 <div className="home_conference-name">
-                  <h2>2<sup>nd</sup> International Conference on Smart Systems for applications in Electrical Sciences (ICSSES-2024)</h2>
+                  <h2>
+                    2<sup>nd</sup> International Conference on Smart Systems for
+                    applications in Electrical Sciences (ICSSES-2024)
+                  </h2>
                 </div>
                 <div className="home_date-container">
-                  <BsCalendarCheck className='calender-icon' />
-                  <p>3<sup>rd</sup> & 4<sup>th</sup> May, 2024</p>
+                  <BsCalendarCheck className="calender-icon" />
+                  <p>
+                    3<sup>rd</sup> & 4<sup>th</sup> May, 2024
+                  </p>
                 </div>
-                <div className="web-link"> 
-                {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
+                <div className="web-link">
+                  {/* <p className='center-design'>ICSSES is listed in the IEEE Conference Search/Call for Papers:</p> */}
                   {/* <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a> */}
-                  
-//<<<<<<< main
-                  <h3 className='center-align-text-data'>Registration and Submission through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2024" target='_blank'>Microsoft CMT</a>.</h3>
+                  <h3 className="center-align-text-data">
+                    Upload camera Ready paper{" "}
+                    <a
+                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+                      target="_blank"
+                    >
+                      CMT Login
+                    </a>
+                    .
+                  </h3>
+                  <h3 className="center-align-text-data">
+                    Registration Link{" "}
+                    <a
+                      href="http://erp.sit.ac.in/external.aspx"
+                      target="_blank"
+                    >
+                      Fee Payment
+                    </a>
+                    .
+                  </h3>
+                  <h3 className="center-align-text-data">
+                    (Register within 2 days of acceptance Notification)
+                  </h3>
+                  <h3 className="center-align-text-data">
+                    Registration form Link{" "}
+                    <a
+                      href="https://forms.gle/t3HXKmKDLvTEHnkM8"
+                      target="_blank"
+                    >
+                      ICSSES 2024
+                    </a>
+                    .
+                  </h3>
                 </div>
-//=======
-                  <h3 className='heading'>Papers will be uploaded through <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICSSES2023" target='_blank'>Microsoft CMT</a>.</h3>
-                  </div>
-//>>>>>>> main
-              </div>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
                   {/* <p>All accepted  papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p> */}
-                  <p>All accepted papers that are registered and presented in the conference will be sent for possible inclusion in IEEE Xplore.  </p>
+                  <p>
+                    All accepted papers that are registered and presented in the
+                    conference will be sent for possible inclusion in IEEE
+                    Xplore.{" "}
+                  </p>
                 </div>
               </Marquee>
+              </div>
+
+              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+                <div className="home-confrence-type-marquee-container">
+                  {/* <p>All accepted  papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p> */}
+                  <p> Registration is now open. </p>
+                </div>
+              </Marquee>
+
               <br />
             </div>
           </div>
@@ -112,17 +153,26 @@ function Home() {
           <div className="conf-para-container">
             <div className="confrence-para-1">
               <p>
-                2<sup>nd</sup> International Conference on Smart systems for applications in Electrical Sciences, addresses
-                many diversified specialized areas like Autonomous
-                Vehicles, Wireless Communication, AI and ML applications, Secure Communication, IoT/Industry 4.0, Networks & Security, VLSI &
-                FPGA, High Voltage, Power Systems, Drives & Control, Biomedical, Robotics Systems, Signal & Image processing, Control & Automation, Materials, etc.
+                2<sup>nd</sup> International Conference on Smart systems for
+                applications in Electrical Sciences, addresses many diversified
+                specialized areas like Autonomous Vehicles, Wireless
+                Communication, AI and ML applications, Secure Communication,
+                IoT/Industry 4.0, Networks & Security, VLSI & FPGA, High
+                Voltage, Power Systems, Drives & Control, Biomedical, Robotics
+                Systems, Signal & Image processing, Control & Automation,
+                Materials, etc.
               </p>
             </div>
             <div className="confrence-para-2">
               <p>
-                It will be held during  3<sup>rd</sup> and 4<sup>th</sup> May, 2024. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals.
-                ICSSES 2024 is a platform for technologists and researchers from academia and industry across
-                the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
+                It will be held during 3<sup>rd</sup> and 4<sup>th</sup> May,
+                2024. The conference will feature plenary talks by distinguished
+                researchers and technologists as well as contributed papers from
+                academics and industry professionals. ICSSES 2024 is a platform
+                for technologists and researchers from academia and industry
+                across the globe to share their ideas on emerging technologies
+                and newer solutions that can guide and lead towards a better
+                tomorrow. Authors can present the papers in hybrid mode.
               </p>
             </div>
           </div>
@@ -134,14 +184,13 @@ function Home() {
           <h2>Tracks</h2>
         </div>
         <div className="home_tracks-containers">
-
           <div className="tracks-card-wrappers">
-
             <motion.div
               // animate={{y:"0px"}}
               // transition={{type:"tween",duration:1.25}}
               // initial={{y:"-9rem"}}
-              className="track-container track1">
+              className="track-container track1"
+            >
               <div className="track-name">
                 <p>Track 1: Wireless Communication</p>
               </div>
@@ -149,7 +198,9 @@ function Home() {
                 <ul>
                   <li>5G, 6G and beyond communication systems</li>
                   <li>Software defined wireless networks</li>
-                  <li>Cognitive radio energy harvesting and green communications</li>
+                  <li>
+                    Cognitive radio energy harvesting and green communications
+                  </li>
                   <li>Satellite, Space and Optical Communication</li>
                   <li>Antenna and RF technologies</li>
                 </ul>
@@ -162,14 +213,15 @@ function Home() {
               <div className="track-details">
                 <ul>
                   <li>Signal Processing and Smart Systems</li>
-                  <li>Machine Learning and Deep Learning in Signal Processing</li>
+                  <li>
+                    Machine Learning and Deep Learning in Signal Processing
+                  </li>
                   <li>Image and Biomedical Signal Processing</li>
                   <li>Satellite, Space and Optical Communication</li>
                   <li>Signal Processing for Communication</li>
                 </ul>
               </div>
             </div>
-
 
             <div className="track-container track9">
               <div className="track-name">
@@ -187,7 +239,7 @@ function Home() {
                 </ul>
               </div>
             </div>
-            
+
             <div className="track-container track6">
               <div className="track-name">
                 <p>Track 4: Autonomous Vehicles</p>
@@ -195,17 +247,19 @@ function Home() {
               <div className="track-details">
                 <ul>
                   <li>Real time attack detection</li>
-                  <li>Applications of cryptography  in autonomous vehicle driving systems</li>
+                  <li>
+                    Applications of cryptography in autonomous vehicle driving
+                    systems
+                  </li>
                   <li>Socio-economic impact of self driving cars</li>
-                  <li>Software and hardware and architecture of self driving cars</li>
+                  <li>
+                    Software and hardware and architecture of self driving cars
+                  </li>
                   <li>Security in autonomous driving</li>
                   <li>Sign detection in self driving cars</li>
                 </ul>
               </div>
             </div>
-            
-            
-
 
             <div className="track-container track5">
               <div className="track-name">
@@ -224,8 +278,6 @@ function Home() {
                 </ul>
               </div>
             </div>
-
-          
 
             <div className="track-container track7">
               <div className="track-name">
@@ -250,10 +302,17 @@ function Home() {
                 <ul>
                   <li>Safety in Automation using robotics</li>
                   <li>Intelligent Transportation technological & systems</li>
-                  <li>Application of Automation-control & supervision systems.</li>
-                  <li>Control application-Power systems, Agriculture, Energy</li>
+                  <li>
+                    Application of Automation-control & supervision systems.
+                  </li>
+                  <li>
+                    Control application-Power systems, Agriculture, Energy
+                  </li>
                   <li>Robotics</li>
-                  <li>Linear & Nonlinear control, optimal control, advanced process control.</li>
+                  <li>
+                    Linear & Nonlinear control, optimal control, advanced
+                    process control.
+                  </li>
                   <li>PLC & DCS</li>
                 </ul>
               </div>
@@ -262,8 +321,9 @@ function Home() {
             <motion.div
               // animate={{y:"0px"}}
               // transition={{type:"tween",duration:1.25}}
-              // initial={{y:"-9rem"}} 
-              className="track-container track2">
+              // initial={{y:"-9rem"}}
+              className="track-container track2"
+            >
               <div className="track-name">
                 <p>Track 8: AI and ML applications </p>
               </div>
@@ -279,7 +339,6 @@ function Home() {
               </div>
             </motion.div>
 
-            
             <div className="track-container track3">
               <div className="track-name">
                 <p>Track 9: Secure Communication</p>
@@ -317,41 +376,55 @@ function Home() {
       </div>
 
       <div className="important-dates-container">
-
         <div className="imp-dates-details">
           <div className="imp-date-heading">
             <h2>Important Dates</h2>
           </div>
           <ul>
-            <li>Submission Portal Opens: 1<sup>st</sup> January 2024</li>
+            <li>
+              Submission Portal Opens: 1<sup>st</sup> January 2024
+            </li>
             {/* <li>Full Paper Submission Deadline: 17th May 2024<span className='hard-dline'> Hard Deadline</span></li> */}
-            <li>Full Paper Submission Deadline: <span className='hard-dline'> Extended till 18<sup>th</sup> Feburary 2024</span></li>
+            <li>
+              Full Paper Submission Deadline:{" "}
+              <span className="hard-dline">
+                {" "}
+                Extended till 25<sup>th</sup> March 2024
+              </span>
+            </li>
             {/* <li>Full Paper Submission Deadline: 3<sup>rd</sup> Feburary 2024</li> */}
             {/* <li className='reg-details'>Full Paper Submission Deadline:  <span className='animate-notify'> Extended to 18<sup>th</sup> Feburary 2024 </span> </li> */}
             {/* <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> March 2024</li> */}
-            <li>Acceptance/Rejection Notification : 3<sup>rd</sup> March 2024</li>
+            <li>
+              Acceptance/Rejection Notification : 20<sup>th</sup> April 2024
+            </li>
             {/* <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 3<sup>rd</sup> April 2024</li> */}
-            <li>Submission of camera ready paper : 3<sup>rd</sup> April 2024</li>
+            <li>
+              Submission of camera ready paper : 22<sup>nd</sup> April 2024
+            </li>
             {/* <li>Payment and Registration Deadline : 14<sup>th</sup> June 2024<span className='hard-dline'> Hard Deadline</span></li> */}
-            <li>Payment and Registration Deadline : 15<sup>th</sup> April 2024 </li>
-            <li>Conference dates: 3<sup>rd</sup>, 4<sup>th</sup> MAY 2024</li>
+            <li>
+              Payment and Registration Deadline : 22<sup>nd</sup> April 2024{" "}
+            </li>
+            <li>
+              Conference dates: 3<sup>rd</sup>, 4<sup>th</sup> MAY 2024
+            </li>
           </ul>
-        {/* Photos section for previous years */}
-        {/* <PreviousConference /> */}
+          {/* Photos section for previous years */}
+          {/* <PreviousConference /> */}
         </div>
-
 
         <div className="imp-image-container">
           <img src={month} alt="" />
         </div>
       </div>
 
-      <div className='footer'>
-        <MdOutlineCopyright className='copyright' />
+      <div className="footer">
+        <MdOutlineCopyright className="copyright" />
         <h2>Copyrights by IEEE SIT SB</h2>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

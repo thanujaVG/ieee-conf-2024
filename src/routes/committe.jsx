@@ -78,27 +78,28 @@ export default function committe() {
             </div>
         </div>
 
-<<///< main
+
         <div className="patrons-container">
-            <h1 className="patrons-heading">Organizing Committee</h1>
+            <h1 className="patrons-heading">Organizing Committee</h1>n
             <div className="committe-container">
                 <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
-                    <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H K E Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H M Kalpana, Professor Dept. of EIE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H K E Latha, Professor, Dept. of  EIE, SIT, Tumakuru</h3>
+                    
                     </div>
                 </div>
             </div>
         </div>
 //=======
         
-//>>>>>>> main
+ 
 
         <div className="patrons-container">
             <h1 className="patrons-heading">Advisory Committee</h1>
@@ -135,6 +136,7 @@ export default function committe() {
                 {/* <h3 className="committe-details">Dr. Roy Pailey, IIT Guwahati</h3> */}
                 <h3 className="committe-details">Dr. Shyam Vasudevarao, Renalyx, Bengaluru</h3>
                 <h3 className="committe-details">Dr. Nirmalya Ghosh Discovary Institute, La Jolla, CA, USA </h3>
+                <h3 className="committe-details">Dr. R. C. Saritha, Associate Director, Bengaluru</h3>
                 </div>
                 </div>
             </div>
@@ -144,7 +146,7 @@ export default function committe() {
             <h1 className="patrons-heading">""</h1>
             <div className="patron-cards-container">
             <div className="patron-card">
-                    <h2 className="patron-name">Dr. H M Kalpana</h2>
+                    <h2 className="patron-name">Dr. H K E Latha</h2>
                     <h3 className="patron-designation">Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
                     <h5 className="patron-institute">Organizing Chair</h5>
                 </div>
@@ -208,14 +210,15 @@ export default function committe() {
             <div className="committe-container">
                 <div className='left-alignment-style'>
                     <div className='inside-left-alignment'>
-                    <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H K E Latha, Professor and Head, Dept. of EIE, SIT, Tumakuru</h3>
+                    <h3 className="committe-details">Dr. H M Kalpana, Professor  Dept. of EIE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumakuru</h3>
                     <h3 className="committe-details">Dr. Siddeswara Prasad V., Professor, Dept. of EIE, SIT, Tumakuru</h3>
-                    <h3 className="committe-details">Dr. H K E Latha, Professor, Dept. of  EIE, SIT, Tumakuru</h3>
+                    
                     </div>
                 </div>
             </div>
