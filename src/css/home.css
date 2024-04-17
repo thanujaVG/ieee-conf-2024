@@ -84,20 +84,30 @@ body {
 }
 
 .home_conference-details-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: 100%;
     width: 100%;
 }
 
+.home-confrence-type-marquee-container h3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000F23;
+    color: white;
+    /* font-size: 20px; */
+    padding: 0.4rem 0;
+}
 .home-confrence-type-marquee-container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #000F23;
     color: white;

@@ -24,14 +24,13 @@ function Home() {
 
           <div className="home_conference-details-wrapper">
             <div className="home_conference-details-container">
-              {/* <Marquee gradient={false} speed={50} pauseOnHover={true}>
-                <div className="home-confrence-type-marquee-container">
-                  <p>Hybrid Conference</p>
-                  <p>Hybrid Conference</p>
-                  <p>Hybrid Conference</p>
-                  <p>Hybrid Conference</p>
-                </div>
-              </Marquee> */}
+              <div className="home-confrence-type-marquee-container">
+                <Marquee gradient={false} speed={50} pauseOnHover={true}>
+                    <h3>Registration is now open</h3>
+                    <h3>Registration is now open</h3>
+                    <h3>Registration is now open</h3>
+                </Marquee>
+              </div>
 
               <div className="collage-images-container">
                 <div className="h_sit-logo-wrapper">
@@ -98,24 +97,26 @@ function Home() {
                     .
                   </h3>
                 </div>
+              </div>
+              <div>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
-                  {/* <p>All accepted  papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p> */}
-                  <p>
+                  <h3>
                     All accepted papers that are registered and presented in the
                     conference will be sent for possible inclusion in IEEE
-                    Xplore.{" "}
-                  </p>
+                    Xplore.
+                  </h3>
                 </div>
               </Marquee>
-              </div>
 
-              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+              </div>
+              <br />
+
+              {/* <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
-                  {/* <p>All accepted  papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p> */}
                   <p> Registration is now open. </p>
                 </div>
-              </Marquee>
+              </Marquee> */}
 
               <br />
             </div>
